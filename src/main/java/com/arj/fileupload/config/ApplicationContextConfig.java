@@ -36,7 +36,7 @@ public class ApplicationContextConfig {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/fileupload");
         dataSource.setUsername("root");
-        dataSource.setPassword("");
+        dataSource.setPassword("root");
         return dataSource;
     }
 
